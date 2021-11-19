@@ -84,14 +84,17 @@ aside {
 
 .card-sleeve {
     position: relative;
+    width: 100%;
     text-align: center;
     color: black;
+    
+    
     
 }
 .card-box img {
     border: var(--cardgreen) solid 8px;
     margin: 5px;
-    flex: 1 1 50vh;
+    width: 100%;
     
     
     
