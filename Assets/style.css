@@ -43,6 +43,14 @@ header nav ul li{
     
 }
 
+.overlay {
+    position: absolute;
+    bottom: 30px;
+    left: 10px;
+    background-color: var(--cardgreen);
+
+}
+
 aside {
     width: 15%;
     padding: 10px 10px;
@@ -71,6 +79,13 @@ aside {
     flex-wrap: nowrap;
     margin: 5px;
     align-content: center;
+    
+}
+
+.card-sleeve {
+    position: relative;
+    text-align: center;
+    color: black;
     
 }
 .card-box img {
