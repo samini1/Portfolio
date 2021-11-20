@@ -21,6 +21,7 @@ header {
     position: -webkit-sticky;
     top: 0;
     justify-content: space-between;
+    z-index: 1;
  }
 header nav {
     margin: 0px 0px;    
@@ -45,7 +46,7 @@ header nav ul li{
 
 .overlay {
     position: absolute;
-    bottom: 30px;
+    bottom: 40px;
     left: 10px;
     background-color: var(--cardgreen);
 
@@ -77,7 +78,7 @@ aside {
 .card-box {
     display: flex;
     flex-wrap: nowrap;
-    margin: 5px;
+    margin: 10px;
     align-content: center;
     
 }
@@ -85,6 +86,7 @@ aside {
 .card-sleeve {
     position: relative;
     width: 100%;
+    margin: 5px;
     text-align: center;
     color: black;
     
@@ -93,7 +95,6 @@ aside {
 }
 .card-box img {
     border: var(--cardgreen) solid 8px;
-    margin: 5px;
     width: 100%;
     
     
