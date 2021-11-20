@@ -32,6 +32,7 @@ header nav ul {
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
+    list-style: none;
 }
 
 header nav ul li{
@@ -41,14 +42,15 @@ header nav ul li{
 .main-section {
     display: flex;
     margin-right: 50px;
-    
+    padding: 10px;
 }
 
 .overlay {
     position: absolute;
     bottom: 40px;
-    left: 10px;
+    left: 0px;
     background-color: var(--cardgreen);
+    padding: 10px;
 
 }
 
@@ -58,19 +60,18 @@ aside {
     margin: 10px 10px;
     flex-shrink: 0;
     text-align: right;
+    border-right: green solid 4px;
     }
 
 .content {
-    border-left: green solid 4px; 
     float: left;
-    padding: 15px;
+    padding: 0 px;
     margin: 10px;
     width: 100%;
     align-content: center;
 }
 
 .big-card{
-    margin: 10px;
     border: var(--cardgreen) solid 8px;
     width: 100%;
 }
@@ -93,10 +94,19 @@ aside {
     
     
 }
-.card-box img {
+.card-sleeve img {
     border: var(--cardgreen) solid 8px;
     width: 100%;
     
     
     
+}
+
+.content ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    list-style: none;
+    justify-content: space-around;
 }
