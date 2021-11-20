@@ -4,6 +4,10 @@
     margin: 0; 
 }
 
+body{
+    background-color: rgb(251, 255, 245);    
+}
+
 :root {
     --cardgreen: rgb(196, 255, 196)
 }
@@ -66,6 +70,20 @@ nav li a:visited {
 
 }
 
+.hover-box {
+    position: absolute;
+    top: 0; left: 0; right: 0; bottom: 0;
+    width: 100%;
+    background-color: var(--cardgreen);
+    opacity: .2;
+    transition: opacity 1s;
+    -webkit-transition: 1s;
+}
+
+.hover-box:hover {
+    opacity: 0;
+}
+
 aside {
     width: 15%;
     padding: 10px 10px;
@@ -99,10 +117,8 @@ aside {
     margin: 5px;
     text-align: center;
     color: black;
-    
-    
-    
 }
+
 .card-sleeve img {    
     width: 100%;
     height: 100%;    
