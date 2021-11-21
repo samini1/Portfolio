@@ -39,14 +39,14 @@ header {
  .hero .avi{
      max-width: 150px;
      position: absolute;
-     top: 10%;
+     top: 50px;
      left:10px;
 
  }
 
  .hero .overlay {
     position: absolute;
-    top: 20%;
+    top: 120px;
     right: 0px;
     background-color: var(--cardgreen);
     padding: 10px;
