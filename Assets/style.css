@@ -32,17 +32,27 @@ header {
     z-index: 1;
      
  }
-.banner{
+.hero{
     display: flex;
 }
 
- .banner .avi{
+ .hero .avi{
      max-width: 150px;
      position: absolute;
-     top: 30px;
-     left:15px;
+     top: 10%;
+     left:10px;
 
  }
+
+ .hero .overlay {
+    position: absolute;
+    top: 20%;
+    right: 0px;
+    background-color: var(--cardgreen);
+    padding: 10px;
+    border: black solid 3px;
+
+}
 header nav {
     margin: 0px 0px;    
 }
@@ -75,7 +85,7 @@ nav li a:visited {
     padding: 10px;
 }
 
-.overlay {
+.main-section .overlay {
     position: absolute;
     bottom: 20%;
     left: 0px;
@@ -150,6 +160,14 @@ aside {
 }
 
 @media screen and (max-width:800px) {
+
+    h1{
+        font-size: 18px;
+    }
+
+    .hero .overlay h3{
+        font-size: small;
+    }
     .card-box {
         flex-wrap: wrap;
     }
@@ -170,6 +188,3 @@ aside {
         width: 80%    
     }
 }
-
-@media screen and (max-width:450px ) {
- }
