@@ -8,6 +8,6 @@
 
 website: https://samini1.github.io/challenge-2/
 
-#W-ebsite created by Syrous Amini
+#website created by Syrous Amini
 
 #images not created by Syrous Amini pulled from free use stock photos at https://unsplash.com/images.
